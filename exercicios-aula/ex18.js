@@ -1,0 +1,1 @@
+// Acumulador de passos até atingir a meta de 5000

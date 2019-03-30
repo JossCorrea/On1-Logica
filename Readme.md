@@ -17,11 +17,13 @@ Entender os princípios básicos de lógica de programação utilizando a lingua
 ---
 ### Introdução  
 - Por que aprender lógica + JavaScript?
+  
 ### Princípios básicos
 - O que são algoritmos?
 - Algoritmos no nosso dia a dia
 - Ada Lovelance
 - Entrada, Processamento + Memória e Saída
+  
 ### Variáveis e Tipos
 - Declaração de variáveis
 - Regras para os identificadores

@@ -1,0 +1,40 @@
+<!-- Vou refatorar e deixar comentado como nos anteriores -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ex05</title>
+</head>
+<body>
+ <h1>Testes</h1>
+<script>
+// Aplicativo dividindo a conta
+// Crie um algoritmo que calcule e mostre no console:
+// a) O valor da conta (consumo)
+// b) O valor dos 10% (cota do garçom)
+// c) O valor final da conta (consumo + 10%)
+// d) O valor que cada pessoa deve pagar
+
+// Operadores básicos
+//     Soma + (mas se tiver string concatena)
+//     Subtração - 
+//     Multiplicação *
+//     Divisão /
+//     Resto da Divisão %
+
+var valorConta = prompt('Informe o valor da conta');
+var valor10PorCento = valorConta*0.1;
+var valorTotal = Number(valorConta) + valor10PorCento;
+var numeroPessoas = prompt('Informe o número de pessoas');
+var valorIndividual = valorTotal/numeroPessoas;
+
+console.log('Valor da conta:', valorConta);
+console.log('Valor 10%: ' + valor10PorCento);
+console.log('Valor total: ' + valorTotal + ' reais'); // console.log(`Valor total: ${valorTotal} reais`); 
+console.log('Valor por pessoa:', valorIndividual.toFixed(2));
+</script>
+    
+</body>
+</html>
