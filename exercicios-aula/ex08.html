@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Teste </h1>
+    <script>
+        // Vamos construir uma tabela verdade 
+        // a) para o caso && (e)
+        // b) para o caso || (ou)
+        // c) para o caso !
+        // d) e se usarmos parênteses? 
+
+        var numero = 3;
+        var condicao1 = (numero == 5); 
+        console.log ('Condicao 1:',condicao1) // 3 = 5 - false
+        var condicao2 = numero > 3;
+        console.log ('Condicao 2:',condicao2) // 3 > 3 - false
+
+         // (Condicao 1) || (Condicao 2)
+        console.log ('Condicao 1 && Condicao 2:', condicao1 || condicao2) // false
+    </script>
+</body>
+</html>
+<!-- Condicao 1  Condicao 2   && -->
+<!--   true        true      true -->
+<!--   true        false     false -->
+<!--   false       true      false -->
+<!--   false       false     false -->
+
+<!-- Condicao 1  Condicao 2   || -->
+<!--   true        true      true -->
+<!--   true        false     true -->
+<!--   false       true      true -->
+<!--   false       false     false -->
+
+<!-- Valor  !Valor
+    true    false
+    false   true -->
