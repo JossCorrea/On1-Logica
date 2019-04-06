@@ -11,39 +11,116 @@
 
 
 // true e true 
-[Substitua este texto por sua resposta]
+var numero = 4;
+var condicao1 = (numero == 4); 
+console.log ('Condicao 1:',condicao1)
+var condicao2 = (numero > 3);
+console.log ('Condicao 2:',condicao2) 
 
 // true e false 
-[Substitua este texto por sua resposta]
+var numero = 4;
+var condicao1 = (numero == 4); 
+console.log ('Condicao 1:',condicao1)
+var condicao2 = (numero < 3);
+console.log ('Condicao 2:',condicao2) 
 
 // false e true
-[Substitua este texto por sua resposta]
+var numero = 4;
+var condicao1 = (numero == 8); 
+console.log ('Condicao 1:',condicao1)
+var condicao2 = (numero > 3);
+console.log ('Condicao 2:',condicao2) 
 
 // false e false 
-[Substitua este texto por sua resposta]
+var numero = 4;
+var condicao1 = (numero == 8); 
+console.log ('Condicao 1:',condicao1)
+var condicao2 = (numero == 3);
+console.log ('Condicao 2:',condicao2) 
+
 
 //!false e true
-[Substitua este texto por sua resposta]
+var numero = 4;
+var condicao1 = (numero != 5); 
+console.log ('Condicao 1:',condicao1)
+var condicao2 = (numero == 4);
+console.log ('Condicao 2:',condicao2) 
 
 // !true e false 
-[Substitua este texto por sua resposta]
+var numero = 4;
+var condicao1 = (numero != 4); 
+console.log ('Condicao 1:',condicao1)
+var condicao2 = (numero == 5);
+console.log ('Condicao 2:',condicao2) 
 
 // true ou true
-[Substitua este texto por sua resposta]
+var numero = 4;
+var condicao1 = (numero == 4); 
+console.log ('Condicao 1:',condicao1)
+var condicao2 = (numero >= 4);
+console.log ('Condicao 2:',condicao2) 
+
+console.log (condicao1 || condicao2)
+
 
 // true ou false 
-[Substitua este texto por sua resposta]
+var numero = 4;
+var condicao1 = (numero == 4); 
+console.log ('Condicao 1:',condicao1)
+var condicao2 = (numero < 4);
+console.log ('Condicao 2:',condicao2) 
+
+console.log (condicao1 || condicao2)
+
 
 // true ou false ou true
-[Substitua este texto por sua resposta]
+var numero = 4;
+var condicao1 = (numero == 4); 
+console.log ('Condicao 1:',condicao1)
+var condicao2 = (numero < 4);
+console.log ('Condicao 2:',condicao2) 
+var condicao3 = (numero >= 4);
+console.log ('Condicao3:', condicao3)
+
+console.log (condicao1 || condicao2 || condicao3)
+
 
 // !true ou false
-[Substitua este texto por sua resposta]
+var numero = 4;
+var condicao1 = (numero > 4); 
+console.log ('Condicao 1:',condicao1)
+var condicao2 = (numero == 5);
+console.log ('Condicao 2:',condicao2) 
+
+console.log (condicao1 || condicao2)
 
 // !(true ou false) e true
-[Substitua este texto por sua resposta]
+var numero = 4;
+var condicao1 = (numero != 4); 
+console.log ('Condicao 1:',condicao1)
+var condicao2 = (numero == 4);
+console.log ('Condicao 2:',condicao2) 
+var condicao3 = (numero < 4);
+console.log ('Condicao 3:' , condicao3)
+var condicao4 = (numero >= 4)
+console.log ('Condicao 4:' , condicao4)
+
+
+console.log (condicao1 && condicao2 || condicao3 && condicao4)
+
 
 // true ou !(false e true)
-[Substitua este texto por sua resposta]
+var numero = 4;
+var condicao1 = (numero >= 4); 
+console.log ('Condicao 1:',condicao1)
+var condicao2 = (numero == 4);
+console.log ('Condicao 2:',condicao2) 
+var condicao3 = (numero != 4);
+console.log ('Condicao 3:' , condicao3)
+var condicao4 = (numero > 3)
+console.log ('Condicao 4:' , condicao4)
+
+
+console.log (condicao1 || condicao2 && condicao3 && condicao4)
 
 //Deu nó? Vai beber uma água e continue depois

@@ -7,4 +7,18 @@
 //    return 2+5
 // }
 
+function jogarParOuImpar(){
+let parOuImparUsuaria = prompt('Escolha par ou ímpar (P/I)');
+let numeroUsuaria = parseInt(prompt('Digite um número inteiro'));
+let numeroPC = Math.round(Math.random());
+let soma = numeroUsuaria + numeroPC
+
+
+if (parOuImparUsuaria=='p' && soma%2 == 0){
+    console.log('Você ganhou!')
+}else if (parOuImparUsuaria == 'I' && soma%2 == 1){
+    console.log('Você perdeu!')
+}
+}
+
 // PS.Não frita com esse exercício...vamos falar sobre isso na próxima semana
