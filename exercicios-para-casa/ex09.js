@@ -7,4 +7,36 @@
 //    return 2+5
 // }
 
+function jogarParOuImpar() {
+
+    let parOuImparUsuaria = prompt('Par ou ímpar?');
+    console.log('parOuImparUsuaria', parOuImparUsuaria);
+
+
+
+    let numeroUsuaria = parseInt(prompt('Escolha seu número'));
+    console.log('parOuImparUsuaria', numeroUsuaria);
+
+
+    let numeroPc = Math.round(Math.random());
+    console.log('numeroPc', numeroPc);
+
+
+    let soma = numeroUsuaria + numeroPc;
+    console.log('Soma', soma);
+
+
+    if (parOuImparUsuaria == 'P' && soma % 2 == 0) {
+        console.log('Voce ganhou!');
+
+    } else if (parOuImparUsuaria == 'I' && soma % 2 == 1) {
+        console.log('Voce ganhou!');
+    } else {
+        console.log('Voce perdeu!');
+    }
+
+    console.log('parOuImparUsuaria', parOuImparUsuaria);
+}
+
+
 // PS.Não frita com esse exercício...vamos falar sobre isso na próxima semana
